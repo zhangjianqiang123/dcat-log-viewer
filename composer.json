@@ -1,5 +1,5 @@
 {
-	"name" : "dcat-admin/helps",
+	"name" : "dcat/helps",
 	"alias": "",
     "description": "transplant laravel-admin-ext/helpers",
 	"type" : "library",
