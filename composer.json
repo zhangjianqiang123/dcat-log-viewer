@@ -24,7 +24,6 @@
 		}
 	},
 	"extra" : {
-		"dcat-admin" : "Dcat\\Admin\\Helps\\HelpsServiceProvider",
 		"laravel" : {
 			"providers" : [
 				"Dcat\\Admin\\Helps\\HelpsServiceProvider"
