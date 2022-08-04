@@ -20,7 +20,7 @@ class LogController extends Controller
         $viewer = new LogViewer($file);
         
         
-        return $content->header($viewer->getFilePath())->body(view('dcat-admin.helps::logs', [
+        return $content->header($viewer->getFilePath())->body(view('dcat-log.helps::logs', [
             'logs'      => $viewer->fetch($offset),
             'logFiles'  => $viewer->getLogFiles(),
             'fileName'  => $viewer->file,
