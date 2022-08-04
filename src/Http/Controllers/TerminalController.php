@@ -24,7 +24,7 @@ class TerminalController extends Controller
     {
         return $content
             ->title('Artisan terminal')
-            ->body(Admin::view('dcat-admin.helps::artisan', ['commands' => $this->organizedCommands()]));
+            ->body(Admin::view('dcat-log.helps::artisan', ['commands' => $this->organizedCommands()]));
     }
     
     public function runArtisan()
